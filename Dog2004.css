@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(255, 159, 48);
+  font-family: cursive;
+  /* color: rgb(163, 71, 1); */
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  border-radius: 14px;
+  background-color: rgb(255, 250, 251);
+  box-shadow: 23px 23px 12px pink;
+  margin: auto;
+}
+.ul1 {
+  display: flex;
+}
+.ul1 li {
+  list-style: none;
+  padding-left: 39px;
+}
+.ul1 li a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+.ul1 li a:hover {
+  text-decoration-line: underline;
+  /* background-color: white;
+   color: brown;
+   border-radius: 8px; */
+}
+.divider {
+  display: flex;
+}
+
+.content {
+  color: white;
+  margin: 100px;
+}
+.content1 {
+  color: white;
+  margin: 20px;
+}
+.content h1 {
+  padding-bottom: 23px;
+}
+.content p {
+  padding-bottom: 23px;
+}
+.content button {
+  padding: 10px;
+  margin-right: 12px;
+  font-size: 20px;
+  font-family: cursive;
+  border-radius: 12px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(145, 65, 7);
+}
+.content1 button{
+  padding: 10px;
+  margin-right: 12px;
+  margin-left: 190px;
+  font-size: 20px;
+  font-family: cursive;
+  border-radius: 12px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(105, 2, 107);
+  font-weight: lighter;
+}
+.image {
+  margin: 54px;
+}
+
+#header5151{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+  justify-content: center;
+
+  align-items: center;
+}
+#h9588{
+    color: purple;
+    font-weight: lighter;
+    font-size: 65px;
+    font-family:  cursive;
+    text-align: center;
+}
+.input-text{
+    padding:10px 53px;
+    font-size: 33px;
+    margin: 20px;
+    color: rgb(5, 5, 5);
+    
+    
+}
+.input-text{
+    font-family:  cursive;
+    border-style: none;
+    border-radius: 12px;
+    font-size: 24px;
+    background-color: violet;
+    opacity: 0.5;
+    
+}
+.input-text::placeholder{
+    color:purple;
+}
+#area::placeholder{
+    color: purple;
+}
+#area{
+    padding:12px 13px;
+    font-size: 23px;
+    margin: 23px;
+}
+
+#golu{
+  border: 2px groove purple;
+  padding: 13px;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 23px;
+  font-family:  cursive;
+  background-color: violet;
+}
+/* .socialmeadia4{
+    font-size: 45px;
+    padding-top:34px ;
+   
+}
+.socialmeadia4 a{
+    padding: 20px;
+    color: purple;
+    transition: all 0.9s;
+}
+.socialmeadia4 a:hover{
+    background-color: violet;
+    border-radius: 50%;
+    border: 2px groove purple;
+    
+
+} */
+
